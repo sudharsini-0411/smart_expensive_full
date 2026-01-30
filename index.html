@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Expenses Tracker</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: Arial, sans-serif; line-height: 1.6; }
+        .header { background: #2563eb; color: white; padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-size: 1.5rem; font-weight: bold; }
+        .nav-buttons { display: flex; gap: 1rem; }
+        .btn { padding: 0.5rem 1rem; text-decoration: none; border-radius: 4px; }
+        .btn-outline { border: 1px solid white; color: white; }
+        .btn-primary { background: white; color: #2563eb; font-weight: bold; }
+        .hero { text-align: center; padding: 4rem 2rem; background: #f3f4f6; }
+        .hero h1 { font-size: 3rem; margin-bottom: 1rem; color: #1f2937; }
+        .hero p { font-size: 1.25rem; color: #6b7280; margin-bottom: 2rem; }
+        .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; padding: 2rem; }
+        .feature { background: white; padding: 2rem; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); text-align: center; }
+        .feature h3 { color: #2563eb; margin-bottom: 1rem; }
+        .cta { background: #2563eb; color: white; padding: 0.75rem 2rem; border-radius: 8px; text-decoration: none; font-size: 1.125rem; font-weight: bold; display: inline-block; margin-top: 2rem; }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">Smart Expenses Tracker</div>
+        <div class="nav-buttons">
+            <a href="#" class="btn btn-outline">Login</a>
+            <a href="#" class="btn btn-primary">Get Started</a>
+        </div>
+    </header>
+
+    <section class="hero">
+        <h1>Take Control of Your Finances</h1>
+        <p>Track expenses, set budgets, and make smarter financial decisions</p>
+        
+        <div class="features">
+            <div class="feature">
+                <h3>📊 Real-time Analytics</h3>
+                <p>Interactive charts and reports to visualize your spending patterns</p>
+            </div>
+            <div class="feature">
+                <h3>💰 Budget Management</h3>
+                <p>Set monthly budgets and receive alerts when you exceed limits</p>
+            </div>
+            <div class="feature">
+                <h3>🔒 Secure & Private</h3>
+                <p>Your financial data is protected with industry-standard security</p>
+            </div>
+        </div>
+
+        <a href="#" class="cta">Start Tracking Now - It's Free!</a>
+    </section>
+</body>
+</html>

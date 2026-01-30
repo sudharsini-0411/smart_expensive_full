@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Expenses Tracker</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: Arial, sans-serif; background: #f3f4f6; }
+        .header { background: #2563eb; color: white; padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+        .nav { display: flex; gap: 1rem; }
+        .nav a { color: white; text-decoration: none; padding: 0.5rem 1rem; border-radius: 4px; }
+        .nav a:hover { background: rgba(255,255,255,0.1); }
+        .container { max-width: 1200px; margin: 0 auto; padding: 2rem; }
+        .hero { text-align: center; padding: 4rem 2rem; background: white; border-radius: 8px; margin-bottom: 2rem; }
+        .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; }
+        .feature { background: white; padding: 2rem; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        .btn { background: #2563eb; color: white; padding: 0.75rem 2rem; border: none; border-radius: 4px; text-decoration: none; display: inline-block; cursor: pointer; }
+        .btn:hover { background: #1d4ed8; }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Smart Expenses Tracker</h1>
+        <nav class="nav">
+            <a href="home.html">Home</a>
+            <a href="login.html">Login</a>
+            <a href="register.html">Register</a>
+            <a href="about.html">About</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section class="hero">
+            <h1>Take Control of Your Finances</h1>
+            <p>Track expenses, set budgets, and make smarter financial decisions with our comprehensive expense tracking solution.</p>
+            <br>
+            <a href="register.html" class="btn">Get Started Free</a>
+            <a href="login.html" class="btn" style="background: #6b7280; margin-left: 1rem;">Login</a>
+        </section>
+
+        <div class="features">
+            <div class="feature">
+                <h3>📊 Real-time Analytics</h3>
+                <p>Interactive charts and reports to visualize your spending patterns and financial trends.</p>
+            </div>
+            <div class="feature">
+                <h3>💰 Budget Management</h3>
+                <p>Set monthly budgets and receive alerts when you exceed your spending limits.</p>
+            </div>
+            <div class="feature">
+                <h3>📱 Easy Expense Tracking</h3>
+                <p>Quickly add and categorize your expenses with our user-friendly interface.</p>
+            </div>
+            <div class="feature">
+                <h3>📈 Financial Reports</h3>
+                <p>Generate detailed monthly and yearly financial reports for better insights.</p>
+            </div>
+            <div class="feature">
+                <h3>🔔 Smart Alerts</h3>
+                <p>Get notified when you're approaching or exceeding your budget limits.</p>
+            </div>
+            <div class="feature">
+                <h3>🔒 Secure & Private</h3>
+                <p>Your financial data is protected with industry-standard security measures.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
